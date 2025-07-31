@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jhonatan Cardoso</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="card">
+    <img src="IMAGENS/avatar.jpeg" alt="Foto de perfil">
+    <h1>Jhonatan Cardoso</h1>
+    <h2>Produtor Cultural & Designer</h2>
+    <p>Transformando ideias em projetos com impacto social e cultural.</p>
+    <div class="social">
+      <a href="https://github.com/designertdi" target="_blank" title="GitHub"><img src="IMAGENS/github-icon.svg" alt="GitHub" /></a>
+      <a href="https://www.linkedin.com/in/cardos/" target="_blank" title="LinkedIn"><img src="IMAGENS/linkedin-icon.svg" alt="LinkedIn" /></a>
+      <a href="https://www.instagram.com/designertheboss/" target="_blank" title="Instagram"><img src="IMAGENS/instagram-icon.svg" alt="Instagram" /></a>
+    </div>
+    <button id="toggle-theme">🌙 Alternar tema</button>
+
+    <footer class="footer">
+      Site desenvolvido por Jhonatan Cardoso
+    </footer>
+
+    <script>
+      const btn = document.getElementById('toggle-theme');
+      btn.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        // Também troca a classe no card para aplicar estilos específicos
+        document.querySelector('.card').classList.toggle('dark');
+      });
+    </script>
+  </section>
+</body>
+
+</html>
