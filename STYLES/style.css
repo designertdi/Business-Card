@@ -197,8 +197,8 @@ body.dark .footer {
 }
 
 body.dark .language-selector button {
-  border-color: #eee;
-  color: #eee;
+  border-color: #222;
+  color: gray;
 }
 
 body.dark .language-selector button:hover {
