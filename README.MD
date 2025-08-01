@@ -14,7 +14,7 @@ Este é o repositório do meu mini site pessoal, onde apresento meu trabalho com
 ## Acesso
 
 Você pode acessar o site online aqui:  
-https://pixeustudios.com/jhonatan-cardoso  
+https://pixeustudios.com/card 
 
 Ou pela URL do GitHub Pages:  
 https://designertdi.github.io/Business-Card/
