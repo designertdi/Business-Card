@@ -1,32 +1,32 @@
-# Cartão de Visitas - Jhonatan Oliveira
+Mini Site - Jhonatan Cardoso
+Este é o repositório do meu mini site pessoal, onde apresento meu trabalho como Produtor Cultural, Designer e Programador.
 
-Este é o repositório do meu cartão de visitas online, onde apresento meu trabalho como Produtor Cultural, Designer e Programador.
+Tecnologias e serviços usados
+HTML5
 
-## Tecnologias usadas
+CSS3 (com Google Fonts Poppins)
 
-- HTML5
-- CSS3 (com Google Fonts Poppins)
-- SEO básico com meta tags
-- Favicons para melhor experiência
+SEO básico com meta tags
 
-## Acesso
+Favicons para melhor experiência
 
-Você pode acessar o site online aqui:  
-https://pixeustudios.com/jhonatan-cardoso  
+Hospedagem via GitHub Pages
 
-Ou pela URL do GitHub Pages:  
+Domínio personalizado registrado e configurado com GoDaddy
+
+Acesso
+Você pode acessar o site online aqui:
+https://pixeustudios.com/jhonatan-cardoso
+
+Ou pela URL do GitHub Pages:
 https://designertdi.github.io/Business-Card/
 
----
+Como rodar localmente
+Clone o repositório
 
-## Como rodar localmente
+Abra o arquivo index.html no seu navegador
 
-1. Clone o repositório  
-2. Abra o arquivo `index.html` no seu navegador
+Contato
+Jhonatan Cardoso
+LinkedIn | Instagram
 
----
-
-## Contato
-
-Jhonatan Oliveira  
-[LinkedIn](https://www.linkedin.com/in/cardos/) | [Instagram](https://www.instagram.com/designertheboss/)
