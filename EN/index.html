@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jhonatan Cardoso</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../STYLES/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../FAVICONS/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../FAVICONS/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../FAVICONS/favicon-16x16.png" />
+  <link rel="manifest" href="../FAVICONS/site.webmanifest" />
+  <link rel="shortcut icon" href="../FAVICONS/favicon.ico" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Online business card for Jhonatan Oliveira — Cultural Producer, Designer MC and Creative Designer." />
+  <meta name="author" content="Jhonatan Oliveira" />
+  <meta name="keywords" content="Jhonatan Oliveira, Cultural Producer, Designer MC, Designer, Business Card, Culture, Design" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pixeustudios.com/jhonatan-cardoso" />
+  <meta property="og:title" content="Jhonatan Oliveira - Cultural Producer & Designer MC" />
+  <meta property="og:description" content="Online business card for Jhonatan Oliveira — Cultural Producer, Designer MC and Creative Designer." />
+  <meta property="og:image" content="https://pixeustudios.com/jhonatan-cardoso/IMAGENS/avatar.jpeg" />
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://pixeustudios.com/jhonatan-cardoso" />
+  <meta property="twitter:title" content="Jhonatan Oliveira - Cultural Producer & Designer MC" />
+  <meta property="twitter:description" content="Online business card for Jhonatan Oliveira — Cultural Producer, Designer MC and Creative Designer." />
+  <meta property="twitter:image" content="https://pixeustudios.com/jhonatan-cardoso/IMAGENS/avatar.jpeg" />
+</head>
+
+<body>
+  <!-- Language Selector -->
+  <nav class="language-selector" aria-label="Language selector">
+    <button id="btn-pt" aria-label="Switch to Portuguese version" type="button">PT</button>
+    <button id="btn-en" aria-label="You are viewing the English version" type="button" aria-pressed="true" disabled>EN</button>
+  </nav>
+
+  <main>
+    <section class="card" role="region" aria-label="Business card of Jhonatan Cardoso">
+      <img src="../IMAGENS/avatar.jpeg" alt="Profile photo of Jhonatan Cardoso" />
+      <h1>Jhonatan Cardoso</h1>
+      <h2>Cultural Producer & Designer</h2>
+      <p>Turning ideas into projects with social and cultural impact.</p>
+      <div class="social" aria-label="Social media links">
+        <a href="https://github.com/designertdi" target="_blank" rel="noopener noreferrer" title="GitHub"><img src="../IMAGENS/github-icon.svg" alt="GitHub icon" /></a>
+        <a href="https://www.linkedin.com/in/cardos/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><img src="../IMAGENS/linkedin-icon.svg" alt="LinkedIn icon" /></a>
+        <a href="https://www.instagram.com/designertheboss/" target="_blank" rel="noopener noreferrer" title="Instagram"><img src="../IMAGENS/instagram-icon.svg" alt="Instagram icon" /></a>
+      </div>
+      <button id="toggle-theme" type="button" aria-pressed="false" aria-label="Toggle light and dark theme">🌙 Toggle theme</button>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    Site developed by Jhonatan Cardoso
+  </footer>
+
+  <script>
+    // Toggle dark mode
+    const btnTheme = document.getElementById('toggle-theme');
+    btnTheme.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      document.querySelector('.card').classList.toggle('dark');
+      const pressed = btnTheme.getAttribute('aria-pressed') === 'true';
+      btnTheme.setAttribute('aria-pressed', String(!pressed));
+    });
+
+    // Language navigation
+    document.getElementById('btn-pt').addEventListener('click', () => {
+      window.location.href = '../';
+    });
+  </script>
+</body>
+
+</html>

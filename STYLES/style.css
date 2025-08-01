@@ -25,6 +25,7 @@ body {
   max-width: 320px;
   transition: background-color 0.3s ease, color 0.3s ease;
   margin-bottom: 3rem; /* espaço para o footer */
+  position: relative;
 }
 
 .card img {
@@ -152,4 +153,41 @@ body.dark .footer {
     margin: 1rem;
     padding: 1.5rem;
   }
+}
+
+/* Seletor de idioma fixo no canto superior direito */
+.language-selector {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 9999;
+}
+
+.language-selector button {
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  border: 1.5px solid #222;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: background-color 0.3s, color 0.3s;
+  color: #222; /* texto preto no modo claro */
+}
+
+.language-selector button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+body.dark .language-selector button {
+  border-color: #eee;
+  color: #222 !important; /* Força texto preto no modo escuro */
+}
+
+body.dark .language-selector button:hover {
+  background-color: #222;
+  color: #eee !important; /* Força texto escuro no hover modo escuro */
 }
