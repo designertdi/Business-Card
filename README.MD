@@ -1,31 +1,32 @@
-# Cartão de Visita - Jhonatan Oliveira
+# Cartão de Visitas - Jhonatan Oliveira
 
-Este é um cartão de visita online simples criado com HTML e CSS.
-
-## Sobre
-
-- Produtor Cultural, Designer MC & Designer.
-- Site com tema claro e escuro.
-- Links para redes sociais reais.
-- Botão para alternar entre temas.
-
-## Como usar
-
-- Abra o arquivo `index.html` no navegador para visualizar o cartão.
-- Para desenvolver, edite os arquivos HTML e CSS conforme desejar.
+Este é o repositório do meu cartão de visitas online, onde apresento meu trabalho como Produtor Cultural, Designer e Programador.
 
 ## Tecnologias usadas
 
 - HTML5
-- CSS3
-- Google Fonts (Poppins)
+- CSS3 (com Google Fonts Poppins)
+- SEO básico com meta tags
+- Favicons para melhor experiência
 
-## Contato
+## Acesso
 
-- GitHub: [https://github.com/designertdi](https://github.com/designertdi)
-- LinkedIn: [https://www.linkedin.com/in/cardos/](https://www.linkedin.com/in/cardos/)
-- Instagram: [https://www.instagram.com/designertheboss/](https://www.instagram.com/designertheboss/)
+Você pode acessar o site online aqui:  
+https://pixeustudios.com/jhonatan-cardoso  
+
+Ou pela URL do GitHub Pages:  
+https://designertdi.github.io/Business-Card/
 
 ---
 
-Feito com 💙 por Jhonatan Oliveira
+## Como rodar localmente
+
+1. Clone o repositório  
+2. Abra o arquivo `index.html` no seu navegador
+
+---
+
+## Contato
+
+Jhonatan Oliveira  
+[LinkedIn](https://www.linkedin.com/in/cardos/) | [Instagram](https://www.instagram.com/designertheboss/)
